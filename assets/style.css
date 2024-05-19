@@ -1,0 +1,108 @@
+.manage-order-heading{
+    font-size: 21px !important;
+    font-weight: 500 !important;
+    color: #555555;
+}
+
+.table-heading th{
+    font-weight: 600 !important;
+    color: #747474 !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 12px;
+}
+.order-button a{
+    padding: 5px 16px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    background-color: #e6e6e6;
+
+}
+.order-button a:focus{
+    border: none !important;
+    background-color: #189847;
+    box-shadow: none;
+    color: #f3f3f3;
+}
+.order-button a:hover{
+    border: none !important;
+    background-color: #189847;
+    box-shadow: none;
+    color: #f3f3f3;
+}
+.nav-tab-active{
+    
+    background-color: #189847 !important;
+    color: #f3f3f3;
+
+}
+
+.order-button a:first-child{
+    margin-left: 0;
+    
+}
+.order-button{
+    border-bottom: 0px !important;
+}
+
+.second-row-order-table th{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #747474 !important;
+}
+
+.order-table{
+    border: .5px solid #d1d1d1 !important;
+}
+
+tbody .order-product-name a{
+    color: #555555 !important;
+    text-decoration: underline;
+}
+.order-table-content td{
+    font-size: 12px !important;
+    font-weight: 600 ;
+    color: #747474;
+    padding: 12px 10px;
+    
+}
+
+.order-table-content .order-user{
+    font-weight: 700 !important;
+}
+
+.completed-status span{
+    background-color: rgb(255, 22, 166) !important;
+    color: #f0f0f0 !important;
+    display: inline;
+    padding: 3px 9px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.active-status span{
+    background-color: #189847;
+    color: #f0f0f0 !important;
+    display: inline;
+    padding: 3px 9px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+.cancelled-status span{
+    background-color: #6e6e6e;
+    color: #f0f0f0 !important;
+    display: inline;
+    padding: 3px 9px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
