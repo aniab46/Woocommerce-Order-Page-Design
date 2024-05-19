@@ -26,6 +26,7 @@ global $wpdb;
             ?>
             <div class="wrap">
                 <h1 class="manage-order-heading">Manage Orders</h1>
+                <a href="<?php echo admin_url('admin.php?page=wc-orders&action=new') ?>" class="page-title-action" >Add Order</a>
                 <nav class="nav-tab-wrapper order-button">
 			        <a href="<?php echo admin_url( 'admin.php?page=new-orders&tab=all'); ?>" class="nav-tab nav-tab-active">All</a>
                     <a href="<?php echo admin_url( 'admin.php?page=new-orders&tab=active'); ?>" class="nav-tab">Active</a>

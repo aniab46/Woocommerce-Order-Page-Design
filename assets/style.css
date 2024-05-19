@@ -2,6 +2,7 @@
     font-size: 21px !important;
     font-weight: 500 !important;
     color: #555555;
+    display: inline;
 }
 
 .table-heading th{
@@ -55,7 +56,8 @@
 }
 
 .order-table{
-    border: .5px solid #d1d1d1 !important;
+    border: .5px solid #e2e2e2 !important;
+    
 }
 
 tbody .order-product-name a{
@@ -106,3 +108,8 @@ tbody .order-product-name a{
     font-size: 10px;
     font-weight: 600;
 }
+
+/* Main order tab remove */
+/* #toplevel_page_woocommerce ul li:nth-child(3){
+    display: none;
+} */
